@@ -190,3 +190,17 @@
    width: 100%;
  }
  
+ @media only screen and (max-width:1400px) {
+  .owl-carousel .owl-item img {
+    width: 55%;
+    height: 55%;
+    margin: 2rem 3.8rem 0rem; 
+ }
+}
+ @media only screen and (max-width:559px) {
+  .owl-carousel .owl-item img {
+    width: 55%;
+    height: 55%;
+    margin: 1rem 3.3rem 0rem; 
+ }
+}
