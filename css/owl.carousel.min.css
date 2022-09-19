@@ -55,6 +55,7 @@
     height: 55%;
     object-fit: cover;
     margin: 3rem 5.5rem 0rem;
+    box-shadow: 0 15px 20px rgba(0, 0, 0, 0.2);
  }
  .owl-carousel .owl-dots.disabled,
  .owl-carousel .owl-nav.disabled {
