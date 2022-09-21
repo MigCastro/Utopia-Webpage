@@ -178,6 +178,32 @@ main .site-title{
     justify-items: center;
     justify-content: center;
 }
+.background img {
+    width: 100vw;
+    height: 80vh;
+    object-fit: cover;
+    filter: brightness(.4);
+}
+.background h4 {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    color: #fff;
+    font-family: var(--Anton);
+    font-size: 30px;
+    letter-spacing: 1px;
+    text-align: center;
+}
+.background p4 {
+    position: absolute;
+    top: 60%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    color: #fff;
+    font-family: var(--Lexend);
+    text-align: center;
+}
 
 main .site-title .site-background{
     padding: 3rem;
@@ -568,6 +594,12 @@ footer.footer .move-up span:hover{
     }
     main .site-title .wrapper .p1 {
         padding: 2rem;
+    }
+
+}
+@media only screen and (max-width:442px) {
+    .background h4 {
+        top: 46%;
     }
 
 }
